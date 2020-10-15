@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1099118327438",
+    "firebase_url": "https://devotions-kenya.firebaseio.com",
+    "project_id": "devotions-kenya",
+    "storage_bucket": "devotions-kenya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099118327438:android:d55b85f3f81e15894f3bdf",
+        "android_client_info": {
+          "package_name": "com.oyeafrica.devotions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099118327438-tp3bpn3ujtci7qj3mqv2f19pmo76eq36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oyeafrica.devotions",
+            "certificate_hash": "8ffc508fa3b2b39afdf94512102218cb194796d9"
+          }
+        },
+        {
+          "client_id": "1099118327438-m8e3hf8uk08enphdvfc1tu9elq1qborb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSwFrHDCGYvVvYCn3YVIHYIp9I0VkcViw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099118327438-m8e3hf8uk08enphdvfc1tu9elq1qborb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,4 +3,9 @@
     <string name="share_your_faith">Share your faith,</string>
     <string name="welcome_long">Welcome to the network of believers \n share and grow together</string>
     <string name="terms_and_conditions">by proceeding you agree with the <u>Terms and Conditions</u></string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="default_web_id">1099118327438-m8e3hf8uk08enphdvfc1tu9elq1qborb.apps.googleusercontent.com</string>
+    <string name="loading">Signing Up</string>
+    <string name="error">Error Signing up</string>
+    <string name="user_db">Users</string>
 </resources>

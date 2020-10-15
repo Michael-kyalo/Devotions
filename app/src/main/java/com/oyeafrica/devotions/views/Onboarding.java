@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -43,6 +41,7 @@ ImageView get_start_image;
     private void goToAuth() {
         Intent auth = new Intent(this, AuthActivity.class);
         startActivity(auth);
-        overridePendingTransition(R.anim.slide_up, R.anim.slide_down);
+        overridePendingTransition(R.anim.slide_up_in, R.anim.slide_up_out);
+        finish();
     }
 }
