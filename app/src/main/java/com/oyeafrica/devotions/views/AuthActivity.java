@@ -19,7 +19,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -30,7 +29,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.oyeafrica.devotions.MainActivity;
 import com.oyeafrica.devotions.R;
-import com.oyeafrica.devotions.User;
+import com.oyeafrica.devotions.models.User;
 
 import java.util.Objects;
 
@@ -154,8 +153,6 @@ public class AuthActivity extends AppCompatActivity {
                                 DocumentSnapshot documentSnapshot = task.getResult();
                                 assert documentSnapshot != null;
                                 if(documentSnapshot.exists()){
-                                    Snackbar.make(Objects.requireNonNull(getCurrentFocus()),"Hello," + user.getUsername(),Snackbar.LENGTH_SHORT).show();
-
                                     startActivity(new Intent(AuthActivity.this, MainActivity.class));
                                     finish();
                                 }

@@ -8,4 +8,14 @@
     <string name="loading">Signing Up</string>
     <string name="error">Error Signing up</string>
     <string name="user_db">Users</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">profile</string>
+    <string name="search">search</string>
+    <string name="content_description_back">back icon</string>
+    <string name="new_post">New post</string>
+    <string name="body_hint">Type a Devotion here...</string>
+    <string name="content_description_image">image icon</string>
+    <string name="send">Send Devotion</string>
 </resources>

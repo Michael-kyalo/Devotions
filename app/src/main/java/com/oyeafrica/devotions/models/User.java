@@ -1,4 +1,4 @@
-package com.oyeafrica.devotions;
+package com.oyeafrica.devotions.models;
 
 public class User {
     String uid;
